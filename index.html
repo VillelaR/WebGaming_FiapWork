@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OUTILERS</title>
+
+  <!-- link na aba -->
+  <link rel="shortcut icon" href="./assets/img/logo-barradeTarefas.png" type="image/x-icon">
+
+  <!-- links -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark navBar-color">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0 me-2"><img src="./assets/img/logoPrincipal.png" alt="Logo Outliers"></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item ">
+            <a class="nav-link active mx-2" aria-current="page" href="#secao1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao2">Armas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao4">Hardware</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao3">VídeoExplicativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao5">VídeoMovimentação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao6">Grupo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#secao7">RoboCup</a>
+          </li>
+        </ul>
+        <div class="mt-1">
+          <a href="#footer" class="perfil"><i class="bi bi-person-circle text-white fs-5"> Contato</i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner carrosel-img">
+        <div class="carousel-item active h-100" alt="Imagem do Robo de frente">
+          <img class="container-fluid position-absolute top-50 start-50 translate-middle" src="./assets/img/ImagemCarrosel1.jpeg" alt="Robo visto de frente">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="container-fluid position-absolute top-50 start-50 translate-middle" src="./assets/img/ImagemCarrosel2.jpeg" alt="Robo visto de frente com leds">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="container-fluid position-absolute top-50 start-50 translate-middle" src="./assets/img/imagemCarrosel3.jpeg" alt="Robo visto de trás">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="container-fluid position-absolute top-50 start-50 translate-middle" src="./assets/img/Imagemcarrosel4.jpeg" alt="Robo visto de lado">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="container-fluid position-absolute top-50 start-50 translate-middle" src="./assets/img/imagemcarrosel5.jpeg" alt="Robo visto na diagonal">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+  </section>
+
+  <section id="secao1" class="nava">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 mt-5 col-sm-12">
+          <h4 class="text text-white me-5">
+            Conheça o OUTLIERBOT, é uma máquina poderosa e imponente, com um designcompacto e agressivo, ele exala potência e velocidade. Equipado com acessórios de combate, é capaz de infrentarqualquer desafio, que o tornam uma ameaça no campo de batalha.
+          </h4>
+          <button type="button" class="mt-5 bottom">Saiba Mais</button>
+        </div>
+        <div class="col-md-6 mt-5 col-sm-12 margemX">
+          <img src="./assets/img/imgPrincipal.png" alt="Logo do Robo - OUTLIERBOT">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao2" class="nava-2">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-8 col-sm-12">
+          <h1 class="text-center fw-bold text-white mt-3">Sistemas das Armas</h1>
+          <p class="text text-white mt-5">
+            O projeto consiste em dois "braços" em formato de "T", cada um equipado com espinhos de agulhas dispostos em uma base de acordo com a imagem de referência. Cada braço será equipado com um motor de arma que realizará uma rotação de 100 graus, no sentido anti-horário para o braço posicionado à esquerda e no sentido horário para o braço posicionado à direita. Isso garantirá que quando ativados, os braços fiquem com a base das agulhas paralela à parede anterior do robô.
+          </p>
+          <p class="text text-white">
+            Além disso, cada braço rotacionará a alturas diferentes, de forma que, na posição ativada, eles estarão em alturas distintas, mas com a mesma distância em relação ao robô, que será de 45 centímetros de raio. O braço da direita ficará em uma posição mais elevada quando ativado.
+          </p>
+        </div>
+      </div>
+      <div class="row col-sm-12">
+        <div class="col-md-6 mt-5 text-center col-sm-12 margemX">
+          <img class="img-arma rounded-4 borda" src="./assets/img/image.png" alt="Imagem do Robo com as armas abertas">
+        </div>
+        <div class="col-md-6 mt-5 text-center col-sm-12 margemX">
+          <img class="img-arma rounded-4 borda" src="./assets/img/image3.png" alt="Imagem do Robo com as armas fechadas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao3 col-12">
+    <div class="ratio ratio-21x9">
+      <iframe src="https://www.youtube.com/watch?v=4LWWZjF8ngs" title="YouTube video" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="secao4" class="nava">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center mb-5">
+        <div>
+          <h2 class="text-white text-center fs-1 fw-bold mt-5 mb-5 col-sm-12">Hardware do Robô: A Engenharia por Trás da
+            Automação</h2>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="accordion col-md-6 col-sm-12 margemX" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                O que são?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Hardwares</strong> são os componentes físicos de um dispositivo ou sistema eletrônico, como processadores, memória, placas-mãe e dispositivos de entrada/saída. Eles trabalham em conjunto com o software para permitir que os dispositivos funcionem
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Para que servem?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                O <strong>hardware</strong> evoluiu ao longo do tempo, resultando em dispositivos mais poderosos e eficientes. É a base da tecnologia moderna, desempenhando um papel crucial em nossa sociedade digital. Escolher o hardware adequado é essencial para garantir o desempenho e atender às necessidades específicas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Quais foram utilizados?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Os equipamentos utlizados foram:</strong>
+                <ul>
+                  <li>Arduíno Mega</li>
+                  <li>Motor DC 5V 330Rpm</li>
+                  <li>Motor Arma 5V 150Rpm</li>
+                  <li>Shield de motor</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 margemX">
+          <img class="img-arma rounded-4 borda" src="./assets/img/hardware-imagem.jpg"
+            alt="Imagem de cima do robo, mostrando os Hardware">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao5">
+    <div class="ratio ratio-21x9">
+      <iframe src="https://www.youtube.com/shorts/577j8fl99d4" title="Video Movimentação do Robo" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="secao6" class="nava-2">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+          <h2 class=" texto  text-center fw-bold mt-5 mb-5">OUTILERS</h2>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center mt-5 ">
+        <card class="col-md-3 col-sm-6 margemX">
+          <img class="borda rounded-4" src="./assets/img/enzo-image.png" alt="Imagem do Enzo RM / CMO">
+        </card>
+        <card class="col-md-3 col-sm-6 margemX">
+          <img class="borda rounded-4" src="./assets/img/elton-image.png" alt="Imagem do Elton SO / CEO">
+        </card>
+        <card class="col-md-3 col-sm-6 margemX">
+          <img class="borda rounded-4" src="./assets/img/nava-image.png" alt="Imagem do João Vitor NMP / CFO ">
+        </card>
+        <card class="col-md-3 col-sm-6 margemX">
+          <img class="borda rounded-4" src="./assets/img/rafael-image.png" alt=" Rafael BV / CIO">
+        </card>
+      </div>
+    </div>
+  </section>
+
+  <section id="secao7" class="next-img">
+    <div class="row d-flex justify-content-center text-center align-items-center col-sm-12">
+      <div class="col-md-8">
+        <h1 class="fiap text-center fw-bold mt-5 margemX">Robocup</h1>
+        <h4 class="text text-white mt-5 mx-auto">
+          A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.
+        </h4>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="nava p-5 d-flex">
+    <div class="col-md-6 col-sm-6">
+      <div class="d-flex">
+        <p class="verde">
+          NOSSO CONTATO:
+        </p>
+        <a href="#"><i class="bi bi-messenger texto mx-3 fs-4"></i></a>
+      </div>
+      <div class="d-flex">
+        <p class="verde">
+          SIGA-NOS:
+        </p>
+        <a href="#"><i class="bi bi-instagram texto mx-3 fs-4"></i></a>
+        <a href="#"><i class="bi bi-youtube texto mx-3 fs-4"></i></a>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-6 verde">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">Nome</label>
+          <input type="name" class="form-control" id="exampleInputName1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn-primary verde-btn rounded-3 ">Enviar</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

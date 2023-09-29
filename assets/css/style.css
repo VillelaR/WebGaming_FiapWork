@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Code+Pro:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.texto {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5em;
+    color: #28ff0d;
+}
+
+.navBar-color {
+    background-color: #5e17eb;
+}
+
+.carrosel-img {
+   height: 27em;
+}
+
+.next-img {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),
+     url(../img/next-image.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    
+}
+
+.img-arma {
+    height: 380px;
+}
+
+.color {
+    background-color:#0f0f0f;
+}
+
+.text { 
+    text-align: justify;
+}
+
+.nava {
+    background-color: #41038f;
+}
+
+.nava-2 {
+    background-color: #4c099e;
+}
+
+.perfil {
+    text-decoration: none;
+}
+
+.bottom{
+    font-size: 18px;
+    font-weight: bold;
+    background: #28ff0d;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-color: #ffffff;
+}
+
+.bottom:hover , .bottom:focus, .bottom:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.borda {
+    border: solid 3px #28ff0d;
+    padding: 5px;
+}
+
+.fiap {
+    color: #ed145b;
+    font-size: 6.5em;
+}
+
+.verde {
+    color: #28ff0d;
+}
+
+.margemX {
+    margin-bottom: 12rem;
+}
+
+.verde-btn {
+    background: #28ff0d;
+    color: #fff;
+    border-color: #28ff0d;
+    font-weight: 600;
+}
